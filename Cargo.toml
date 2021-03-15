@@ -1,0 +1,17 @@
+[package]
+name = "writedown-html"
+version = "0.1.0"
+authors = ["sksat <sksat@sksat.net>"]
+edition = "2018"
+
+[lib]
+name = "writedown_html"
+path = "src/lib.rs"
+
+[[bin]]
+name = "wd-html"
+path = "src/bin.rs"
+
+[dependencies]
+clap = "2.33.3"
+writedown = { path = "../writedown-rs" }
