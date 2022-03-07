@@ -13,5 +13,5 @@ name = "wd-html"
 path = "src/bin.rs"
 
 [dependencies]
-clap = "2.33.3"
+clap = "3.1.6"
 writedown = { path = "../writedown-rs" }
